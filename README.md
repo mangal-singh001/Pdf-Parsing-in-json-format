@@ -16,6 +16,7 @@ Extract text from a PDF 📑 and convert it into a **well-structured JSON** 🗂
 * [📸 Screenshots](#-screenshots)
 * [🔮 Limitations & Future Work](#-limitations--future-work)
 * [🤝 Contributing](#-contributing)
+* [🌐 Connect with Me](#-connect-with-me)
 
 ---
 
@@ -146,3 +147,16 @@ Want to improve this project? 🙌
 4. Push & open a Pull Request
 
 ---
+
+## 🌐 Connect with Me
+
+* 💼 [LinkedIn](https://www.linkedin.com/in/mangal-singh001)
+* 💻 [GitHub](https://github.com/mangal-singh001)
+
+---
+
+⭐ If you found this project helpful, don’t forget to **star the repo** and support the journey 🚀
+
+---
+
+Do you also want me to add **GitHub badges (Python, JSON, MIT License)** at the top of the README to give it that extra polished look?
