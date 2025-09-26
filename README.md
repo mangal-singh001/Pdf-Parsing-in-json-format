@@ -1,7 +1,3 @@
-Here’s a sample **README.md** for your “PDF-Parsing to JSON” project. Feel free to adapt or expand as needed.
-
----
-
 # PDF Parsing to Structured JSON
 
 Extract text from a PDF and convert it into a well-structured JSON format.
@@ -241,20 +237,3 @@ Please follow PEP 8, write documentation, and test on multiple PDFs.
 
 ---
 
-## License
-
-Specify your license (e.g. MIT, Apache 2.0). For example:
-
-```
-MIT License
-
-Copyright (c) 2025 Your Name
-
-Permission is hereby granted, free of charge, to any person obtaining a copy...
-```
-
-You can replace this section based on what license you prefer.
-
----
-
-If you like, I can generate a README with badges, example screenshots, or more advanced features. Do you want me to do that for your repo?
