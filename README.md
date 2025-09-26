@@ -13,10 +13,9 @@ Extract text from a PDF 📑 and convert it into a **well-structured JSON** 🗂
 * [⚙️ Installation](#-installation)
 * [▶️ Usage](#️-usage)
 * [📊 JSON Output Format](#-json-output-format)
-* [📝 Example](#-example)
+* [📸 Screenshots](#-screenshots)
 * [🔮 Limitations & Future Work](#-limitations--future-work)
 * [🤝 Contributing](#-contributing)
-* [📜 License](#-license)
 
 ---
 
@@ -45,6 +44,8 @@ Pdf-Parsing-in-json-format/
 ├── PDF Parsing and Structured JSON.py
 ├── [Fund Factsheet - May]360ONE-MF-May 2025.pdf.pdf
 ├── parsed_output_hierarchical.json
+├── screenshots/
+│   └── output_sample.png
 └── README.md
 ```
 
@@ -99,67 +100,23 @@ Run the script with an input PDF and optional output JSON:
 python "PDF Parsing and Structured JSON.py" input.pdf output.json
 ```
 
-Example in Python:
-
-```python
-from pdf_parser import parse_pdf_to_json
-import json
-
-json_obj = parse_pdf_to_json("input.pdf")
-with open("output.json", "w", encoding="utf-8") as f:
-    json.dump(json_obj, f, ensure_ascii=False, indent=2)
-```
-
 ---
 
 ## 📊 JSON Output Format
 
-Example JSON structure:
+The output JSON contains:
 
-```json
-{
-  "filename": "sample.pdf",
-  "num_pages": 2,
-  "pages": [
-    {
-      "page_number": 1,
-      "blocks": [
-        {
-          "type": "heading",
-          "text": "Overview"
-        },
-        {
-          "type": "paragraph",
-          "text": "This document describes ..."
-        }
-      ]
-    }
-  ]
-}
-```
+* **filename**: input PDF name
+* **num_pages**: total pages
+* **pages**: each page with extracted blocks (paragraphs, sections, etc.)
 
 ---
 
-## 📝 Example
+## 📸 Screenshots
 
-Input: **sample.pdf**
-Output: **parsed_output_hierarchical.json**
+Here’s a sample output JSON structure displayed in VS Code:
 
-```json
-{
-  "filename": "sample.pdf",
-  "num_pages": 2,
-  "pages": [
-    {
-      "page_number": 1,
-      "blocks": [
-        { "type": "heading", "text": "Overview" },
-        { "type": "paragraph", "text": "This document describes ..." }
-      ]
-    }
-  ]
-}
-```
+![Parsed JSON Output](screenshots/output_sample.png)
 
 ---
 
@@ -187,11 +144,5 @@ Want to improve this project? 🙌
 2. Create a branch (`git checkout -b feature-name`)
 3. Commit changes
 4. Push & open a Pull Request
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License** ✅
 
 ---
