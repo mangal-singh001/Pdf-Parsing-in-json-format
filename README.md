@@ -159,4 +159,3 @@ Want to improve this project? 🙌
 
 ---
 
-Do you also want me to add **GitHub badges (Python, JSON, MIT License)** at the top of the README to give it that extra polished look?
