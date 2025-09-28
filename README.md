@@ -93,6 +93,7 @@ pip install pdfplumber
 
 ---
 
+
 ## ▶️ Usage
 
 Run the script with an input PDF and optional output JSON:
